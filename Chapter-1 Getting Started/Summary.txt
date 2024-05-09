@@ -1,0 +1,41 @@
+Top reasons for learning in C:
+    1. Good base for learning C#, C++, Java
+    2. Unix, Linux, Windows, Gaming Frameworks are written in C
+    3. Embedded systems programs are written in C.
+
+Constants= Literals-> Cannot change
+Variables= Identifiers -> MAy change
+
+Types of variables and constants: primary, Secondary
+Primary: Integer, Real(float), Character
+
+Ranges:
+    1. 2-byte integers: -32768 to +32767
+    2. 4-byte integers: -2147483648 to +2147483647
+    3. floats: -3.4*10^38 to +3.4*10^38
+
+In a char constant, both qoutes must slant to the left, like 'A'
+
+Variable has 2 meanings:
+    1. It's an entity whose value can change
+    2. It's a name given to a location in memory
+
+Variables names are case-sensitive and must begin with an alphabet.
+
+Total keywords=32, Example- char, int, float etc
+
+printf() is a function that can print multiple constants and variables.
+
+Format specifiers in printf(), scanf(): int: %d, float: %f, char: %C
+
+main() is a function that must always return an integer value: 
+    0 if it meets success,
+    1 if it encounters failure
+
+void main() is wrong, correct form is int main()
+
+use /*......*/ or // for a comment in a programs
+
+& is 'address of operator' and must be used before a variable in scanf()
+
+
