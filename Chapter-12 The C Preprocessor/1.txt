@@ -1,0 +1,4 @@
+// If a macro is not getting expanded as per your expectation, how will
+// you find out how is it being expanded by the preprocessor?
+
+// gcc -E your_file.c > preprocessed_output.c
