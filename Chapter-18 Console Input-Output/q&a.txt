@@ -1,0 +1,36 @@
+To receive the string "We have got the guts, you get the glory!!" in
+an array char str[ 100 ] which of the following functions would you
+use?
+1. scanf ( "%s", str ) ;
+2. gets ( str ) ; (ANS)
+3. getchar ( str ) ;
+4. fgetchar ( str ) ;
+
+If an integer is to be entered through the keyboard, which function
+would you use?
+1. scanf( ) (ANS)
+2. gets( )
+3. getche( )
+4. getchar( )
+
+Which of the following can a format string of a printf( ) function
+contain:
+1. Characters, format specifications and escape sequences (ANS)
+2. Character, integers and floats
+3. Strings, integers and escape sequences
+4. Inverted commas, percentage sign and backslash character
+
+The purpose of the field - width specifier in a printf() function is to :
+1. Control the margins of the program listing
+2. Specify the maximum value of a number
+3. Control the size of font used to print numbers
+4. Specify how many columns should be used to print the number (ANS)
+
+int main()
+{
+    printf("%-25s %-20s %6.2f\n", "Discovery of India", "Jawaharlal Nehru", 425.50);
+    printf("%-25s %-20s %6.2f\n", "My Experiments with Truth", "Mahatma Gandhi", 375.50);
+    printf("%-25s %-20s %6.2f\n", "Sunny Days", "Sunil Gavaskar", 95.50);
+    printf("%-25s %-20s %6.2f\n", "One More Over", "Erapalli Prasanna", 85.00);
+    return 0;
+}
